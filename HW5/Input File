@@ -1,0 +1,20 @@
+AddEvent 1010 hurricaneMichael
+AddEvent 1106 letsVote
+AddEvent 1008 FallBreakAtBeach
+AddEvent 1009 FallBreakInOrlando
+AddEvent 1122 turkeyFeast
+AddEvent 1031 hw5due
+AddEvent 1111 thankTheVets
+AddEvent 0222 happyBDayWashington
+PrintSkipList
+DisplayEventsBetweenDates 1001 1015
+DisplayEventsFromStartDate 1101
+DisplayEventsToEndDate 0931
+DisplayAllEvents
+DeleteEvent 1010
+DeleteEvent 1001
+AddEvent 1031 trickOrTreat
+AddEvent 1225 SantaWasHere
+AddEvent 1208 noMoreClassesYeah
+PrintSkipList
+DisplayEventsFromStartDate 1201
