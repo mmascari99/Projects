@@ -18,3 +18,15 @@ GoogleX Loon
 GoogleX Wing
 GoogleX Titan
 GoogleX Waymo
+
+DirectSupervisor Maps
+DirectSubordinates Google
+AllSupervisors Loon
+AllSubordinates GoogleX
+NumberOfAllSupervisors Loon
+NumberOfAllSubordinates GoogleX
+IsSupervisor Loon Google
+IsSubordinate Google DeepMind
+CompareRank Calico Alphabet
+ClosestCommonSupervisor AdSense Wing
+DirectSupervisor Google
