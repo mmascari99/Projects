@@ -1,0 +1,11 @@
+DirectSupervisor Maps Google
+DirectSubordinates Google AdSense Android Apps_for_Work DeepMind Google_Search Maps Youtube
+AllSupervisors Loon GoogleX Alphabet
+AllSubordinates GoogleX Loon Replicant Titan Waymo Wing 
+NumberOfAllSupervisors Loon 2
+NumberOfAllSubordinates GoogleX 5
+IsSupervisor Loon Google no
+IsSubordinate Google DeepMind yes
+CompareRank Calico Alphabet lower
+ClosestCommonSupervisor AdSense Wing Alphabet
+DirectSupervisor Google Alphabet
