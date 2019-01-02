@@ -1,0 +1,39 @@
+ChatRequest 1100 A 25 wait
+RepAssignment A Alice 1100
+ChatRequest 1103 B 21 later
+RepAssignment B Bob 1103
+AvailableRepList 1104 Carol David Emily
+ChatRequest 1107 C 20 wait
+RepAssignment C Carol 1107
+ChatRequest 1110 D 10 wait
+RepAssignment D David 1110
+ChatRequest 1112 E 10 later
+RepAssignment E Emily 1112
+ChatRequest 1114 F 5 later
+TryLater F 1114
+MaxWaitTime 1114 0
+ChatRequest 1115 G 2 wait
+PutOnHold G 1115
+ChatRequest 1116 H 3 wait
+PutOnHold H 1116
+QuitOnHold 1118 G
+ChatRequest 1119 I 4 wait
+PutOnHold I 1119
+ChatEnded D David 1120
+RepAssignment H David 1120
+ChatEnded E Emily 1122
+RepAssignment I Emily 1122
+ChatEnded H David 1123
+ChatEnded B Bob 1124
+ChatEnded A Alice 1125
+ChatEnded I Emily 1126
+ChatEnded C Carol 1127
+ChatRequest 1129 J 15 wait
+RepAssignment J David 1129
+AvailableRepList 1129 Bob Alice Emily Carol
+MaxWaitTime 1129 4
+ChatEnded J David 1144
+ChatRequest 1145 M 3 later
+RepAssignment M Bob 1145
+MaxWaitTime 1146 4
+ChatEnded M Bob 1148
