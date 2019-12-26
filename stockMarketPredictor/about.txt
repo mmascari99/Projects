@@ -1,0 +1,4 @@
+stocks.c reads in from a file named stocks.csv and asks for a scanf for the current days %change in the S&P 500. (After 5:00PM ET)
+Once entered, stocks.c will output any previous days the S&P moved the same amount since DEC 2011, and then says how many days the S&P went up
+following simmilar days vs how many days the S&P went down following similar days.
+Then it gives the average %change of all the days that followed simmilar days.
